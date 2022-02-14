@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mod>
+	<!-- Main code -->
+    <hooks script_path="lua/">
+		<group hook_id="core/lib/">
+		    <group :hook_id="utils/">
+                <pre :hook_id="coreapp" script_path="HealthnumberCore.lua"/>
+			</group>
+        </group>
+
+	    <group hook_id="lib/">
+			<group :hook_id="managers/menumanager">
+			    <post script_path="HealthnumberMenu.lua" />
+				<post :script_path="ModMenu.lua" />
+			</group>	
+			<group :hook_id="managers/hud/hudteammate">
+				<post :script_path="HealthNumbers.lua" />
+			</group>
+        </group>
+    </hooks>
+	<:include src="assets/assets.xml"/>
+</mod>

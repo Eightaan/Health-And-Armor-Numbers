@@ -1,0 +1,27 @@
+{
+	"number_scale_title" : "Number Scale",
+	"number_scale_desc" : "",
+	"health_alpha_title" : "Health Circle Alpha",
+	"health_alpha_desc" : "",
+	"armor_alpha_title" : "Armor Circle Alpha",
+	"armor_alpha_desc" : "",
+	"number_placement_title" : "Number placement",
+	"center" : "Center",
+	"left" : "Left",
+	"number_placement_desc" : "",
+	"armor_color_title" : "Armor Number Color",
+	"armor_color_desc" : "",
+	"health_color_title" : "Health Number Color",
+	"health_color_desc" : "",
+	"low_color_title" : "Low Health/Armor Color",
+	"low_color_desc" : "",
+	"healthnumber_r" : "Red",
+	"healthnumber_g" : "Green",
+	"healthnumber_b" : "Blue",
+	"healthnumber_ok" : "Ok",
+	"healthnumber_color_reset" : "Reset Color",
+	"healthnumber_warning_desc" : "Some of your changes may not take effect until the next heist or game restart!",
+
+	"healthnumber_title" : "Health And Armor Numbers",
+	"healthnumber_desc" : ""
+}

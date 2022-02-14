@@ -1,0 +1,10 @@
+{
+	"name" : "Health And Armor Numbers",
+	"description" : "",
+	"author" : "Eightan",
+	"version" : "1.0",
+	"blt_version" : 2,
+	"image" : "_icon.png",
+	"color" : "0.15 0.15 0.15",	
+	"supermod_definition" : "Healthnumber.xml"
+}

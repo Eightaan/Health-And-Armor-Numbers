@@ -1,0 +1,102 @@
+{
+	"menu_id": "healthnumber_menu",
+	"title": "healthnumber_title",
+    "description": "healthnumber_desc",
+	"items": [
+		{
+		    "type": "slider",
+			"id": "number_scale_slider",
+			"title": "number_scale_title",
+			"description": "number_scale_desc",
+			"callback": "SetOption",
+			"callback_arguments" : "number_scale",
+			"value": "number_scale",
+			"max": 30,
+            "min": 5,
+            "step": 1,
+            "default_value": 25
+		},
+		{
+			"type": "divider",
+			"size": 16
+        },
+        {
+			"type": "slider",
+			"id": "health_alpha_slider",
+			"title": "health_alpha_title",
+			"description": "health_alpha_desc",
+			"callback": "SetOption",
+			"callback_arguments" : "health_alpha",
+			"value": "health_alpha",
+			"max": 1,
+            "min": 0,
+            "step": 1,
+            "default_value": 0.4
+	    },
+        {
+			"type": "slider",
+			"id": "armor_alpha_slider",
+			"title": "armor_alpha_title",
+			"description": "armor_alpha_desc",
+			"callback": "SetOption",
+			"callback_arguments" : "armor_alpha",
+			"value": "armor_alpha",
+			"max": 1,
+            "min": 0,
+            "step": 1,
+            "default_value": 0.4
+		},
+		{
+			"type": "divider",
+			"size": 4
+		},
+        {
+			"type" : "multiple_choice",
+			"id" : "number_placement_multiple_choice",
+			"title" : "number_placement_title",
+			"description" : "number_placement_desc",
+			"callback" : "SetOption",
+			"callback_arguments" : "number_placement",
+			"items" : [
+				"center",
+				"left"
+			],
+			"value" : "number_placement",
+			"default_value" : 1
+	    },
+        {
+			"type": "divider",
+			"size": 4
+		},
+		{
+			"type": "color_select",
+			"id": "armor_color_select",
+			"title": "armor_color_title",
+			"description": "armor_color_desc",
+			"value": "armor_color",
+			"default_value": [255, 255, 255],
+			"callback": "SetColorOption",
+			"callback_arguments": "armor_color"
+		},
+		{
+			"type": "color_select",
+			"id": "health_color_select",
+			"title": "health_color_title",
+			"description": "health_color_desc",
+			"value": "health_color",
+			"default_value": [255, 255, 255],
+			"callback": "SetColorOption",
+			"callback_arguments": "health_color"
+		},
+		{
+			"type": "color_select",
+			"id": "low_color_select",
+			"title": "low_color_title",
+			"description": "low_color_desc",
+			"value": "low_color",
+			"default_value": [255, 0, 0],
+			"callback": "SetColorOption",
+			"callback_arguments": "low_color"
+		}
+	]
+}
