@@ -8,6 +8,7 @@
 	"number_placement_title" : "Number placement",
 	"center" : "Center",
 	"left" : "Left",
+	"right" : "Right",
 	"number_placement_desc" : "",
 	"armor_color_title" : "Armor Number Color",
 	"armor_color_desc" : "",

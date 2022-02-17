@@ -1,7 +1,7 @@
 Hooks:PostHook(HUDTeammate, "init", "init_healthnumber", function(self, ...)
     local teammate_panel = self._panel:child("player")
 	local radial_health_panel = teammate_panel:child("radial_health_panel")
-	local placement = healthnumber:GetOption("number_placement") > 1 and "left" or "center"
+	local placement = healthnumber:GetOption("number_placement") < 2 and "center" or healthnumber:GetOption("number_placement") > 2 and "right" or "left"
     local HealthNum = radial_health_panel:text({
 		name = "HealthNum",
 		visible = true,

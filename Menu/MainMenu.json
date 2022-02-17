@@ -59,7 +59,8 @@
 			"callback_arguments" : "number_placement",
 			"items" : [
 				"center",
-				"left"
+				"left",
+				"right"
 			],
 			"value" : "number_placement",
 			"default_value" : 1
